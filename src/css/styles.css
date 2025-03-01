@@ -5,23 +5,27 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./header.css');
 @import url('./hero.css');
-@import url('./about-us.css');
-@import url('./our-collection.css');
-@import url('./your-order.css');
-@import url('./testimonials.css');
 @import url('./footer.css');
 
 :root {
-  --primary-color: #1c2225;
-  --yellow: #ecd979;
+  --primary-color: #4a6c4f;
   --white: #fcf9f9;
+  --text-color: #000;
 }
 body {
   font-family: 'Manrope', sans-serif;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-image: url(../img/IMG_7861.JPG);
+  background-clip: border-box, border-box;
+  background-attachment: fixed, fixed;
+  background-color: #2f2f2f;
+  background-repeat: no-repeat;
+  background-origin: padding-box, padding-box;
+  background-position-x: 50%, 50%;
+  background-position-y: 50%, 50%;
+  background-size: cover;
+  box-sizing: border-box;
 }
 section {
   padding: 40px 0;
