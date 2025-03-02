@@ -6,47 +6,77 @@
   gap: 20px;
 }
 
-.place {
+.place-title {
   color: var(--primary-color);
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   max-width: 335px;
   text-align: center;
+  align-items: center;
 }
 
-.place-list {
+.place-text-block {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   gap: 20px;
 }
 
-.place-item {
+.place-time-list {
   display: flex;
-  gap: 10px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.place-item-time {
+.place-time-item {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
   color: var(--text-color);
   text-align: center;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.03em;
-  max-width: 300px;
+}
+
+.place-svg-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-svg-item {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .place-item-svg {
-  stroke: var(--text-color);
   fill: var(--text-color);
 }
 
-.place-item-place {
+.place-place-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-place-item {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
   color: var(--text-color);
-  text-align: center;
+  text-align: start;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.03em;
-  max-width: 300px;
+  /* max-width: 250px; */
 }
