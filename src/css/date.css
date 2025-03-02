@@ -1,0 +1,29 @@
+.date-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.kvitu {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.date {
+  color: var(--primary-color);
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  max-width: 335px;
+  text-align: center;
+}
+
+.date-line {
+  display: inline-block;
+  width: 50%;
+  height: 2px;
+  background-color: var(--primary-color);
+  margin: 5px 0;
+}

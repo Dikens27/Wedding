@@ -1,0 +1,26 @@
+.guests-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.guests {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  max-width: 335px;
+}
+
+.guests-message {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  max-width: 300px;
+}

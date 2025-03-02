@@ -1,0 +1,52 @@
+.place-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.place {
+  color: var(--primary-color);
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  max-width: 335px;
+  text-align: center;
+}
+
+.place-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.place-item {
+  display: flex;
+  gap: 10px;
+}
+
+.place-item-time {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  max-width: 300px;
+}
+
+.place-item-svg {
+  stroke: var(--text-color);
+  fill: var(--text-color);
+}
+
+.place-item-place {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  max-width: 300px;
+}
