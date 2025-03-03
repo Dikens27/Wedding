@@ -15,3 +15,23 @@
   text-align: center;
   align-items: center;
 }
+
+.place-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-item {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-item-title {
+}
+
+.place-item-text {
+}
