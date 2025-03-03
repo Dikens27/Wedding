@@ -1,0 +1,81 @@
+.timing-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.timing-title {
+  color: var(--primary-color);
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  max-width: 335px;
+  text-align: center;
+  align-items: center;
+}
+
+.timing-text-block {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.timing-time-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timing-time-item {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.timing-svg-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timing-svg-item {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.timing-item-svg {
+  fill: var(--text-color);
+}
+
+.timing-place-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timing-place-item {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  color: var(--text-color);
+  text-align: start;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}

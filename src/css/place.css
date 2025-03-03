@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 .place-title {
@@ -14,69 +14,4 @@
   max-width: 335px;
   text-align: center;
   align-items: center;
-}
-
-.place-text-block {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-}
-
-.place-time-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.place-time-item {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  color: var(--text-color);
-  text-align: center;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-}
-
-.place-svg-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.place-svg-item {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.place-item-svg {
-  fill: var(--text-color);
-}
-
-.place-place-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.place-place-item {
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
-  color: var(--text-color);
-  text-align: start;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-  /* max-width: 250px; */
 }
