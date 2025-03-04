@@ -6,32 +6,51 @@
   gap: 40px;
 }
 
-.place-title {
-  color: var(--primary-color);
-  font-size: 40px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  max-width: 335px;
-  text-align: center;
-  align-items: center;
-}
-
 .place-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 60px;
 }
 
 .place-item {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .place-item-title {
+  color: var(--primary-color);
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  align-items: center;
 }
 
 .place-item-text {
+  color: var(--text-color);
+  max-width: 300px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.place-item-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  display: block;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--primary-color);
+  padding: 16px 32px;
+  min-width: 100px;
 }
