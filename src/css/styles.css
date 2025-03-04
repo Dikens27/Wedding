@@ -17,24 +17,28 @@
   --white: #fcf9f9;
   --text-color: #000;
 }
-body {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--white);
-  background-image: url(../img/IMG_7860.JPG);
-  background-clip: border-box, border-box;
-  background-attachment: fixed, fixed;
-  background-color: #2f2f2f;
-  background-repeat: no-repeat;
-  background-origin: padding-box, padding-box;
-  background-position-x: 50%, 50%;
-  background-position-y: 50%, 50%;
-  background-size: cover;
-  object-fit: cover;
-  box-sizing: border-box;
-  max-width: 500px;
+
+@media (max-width: 768px) {
+  body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white);
+    background-image: url(../img/fon.jpg);
+    background-clip: border-box, border-box;
+    background-attachment: fixed, fixed;
+    background-color: #2f2f2f;
+    background-repeat: no-repeat;
+    background-origin: padding-box, padding-box;
+    background-position-x: 50%, 50%;
+    background-position-y: 50%, 50%;
+    background-size: cover;
+    object-fit: cover;
+    box-sizing: border-box;
+    max-width: 500px;
+  }
 }
+
 section {
   padding: 40px 0;
 }
