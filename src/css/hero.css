@@ -1,5 +1,8 @@
 .hero {
   padding-top: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-block {
