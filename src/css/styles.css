@@ -27,13 +27,6 @@
     color: var(--white);
     background-color: var(--white);
     background-image: url(../img/fon.jpg);
-    background-attachment: fixed, fixed;
-    /* background-repeat: no-repeat; */
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    /* background-size: cover; */
-    /* background-position: center; */
   }
 }
 
