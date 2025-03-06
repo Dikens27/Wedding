@@ -26,7 +26,7 @@
     font-style: normal;
     color: var(--white);
     background-color: var(--white);
-    background-image: url(../img/fon.jpg);
+    /* background-image: url(../img/fon.jpg); */
   }
 }
 
