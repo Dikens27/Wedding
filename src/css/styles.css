@@ -10,6 +10,7 @@
 @import url('./guests.css');
 @import url('./timing.css');
 @import url('./place.css');
+@import url('./wish.css');
 @import url('./footer.css');
 
 :root {
@@ -25,13 +26,14 @@
     font-style: normal;
     color: var(--white);
     background-color: var(--white);
-    /* background-image: url(../img/fon.jpg);
+    background-image: url(../img/fon.jpg);
     background-attachment: fixed, fixed;
-    background-color: #2f2f2f;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    background-position: center; */
+    object-fit: cover;
+    top: 0;
+    left: 0;
+
+    background-position: center;
   }
 }
 

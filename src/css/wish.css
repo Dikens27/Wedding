@@ -1,0 +1,40 @@
+.wish-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.wish-title {
+  color: var(--primary-color);
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  max-width: 335px;
+  text-align: center;
+  align-items: center;
+}
+
+.wish-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.wish-item {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  max-width: 300px;
+}
+
+.wish-item span {
+  color: var(--primary-color);
+  font-weight: 700;
+}
