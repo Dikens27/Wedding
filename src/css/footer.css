@@ -1,3 +1,17 @@
 .footer {
-  height: 40px;
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3 {
+  color: var(--primary-color);
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  max-width: 335px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
