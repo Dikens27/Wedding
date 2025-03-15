@@ -34,7 +34,11 @@
   max-width: 300px;
 }
 
-.wish-item span {
+.wish-item-span {
   color: var(--primary-color);
   font-weight: 700;
+}
+
+.wish-item-number {
+  color: var(--primary-color);
 }
